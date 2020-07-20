@@ -75,6 +75,10 @@ header {
   pointer-events: none;
 }
 
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
