@@ -105,7 +105,7 @@ header {
 }
 
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: $logofont;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -199,7 +199,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--primary-text-color);
-  max-width: 1600px;
+  width: 1600px;
   height: 600px;
   text-align: center;
   margin-left: auto;
