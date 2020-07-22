@@ -45,7 +45,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 100%;
 
-  & > svg {
+  svg {
     margin: auto;
     width: 15px;
     height: 15px;
@@ -53,8 +53,8 @@
     transition: fill $transition;
   }
 
-  &:hover & > svg,
-  &:focus & > svg {
+  &:hover svg,
+  &:focus svg {
     fill: $focus-color;
   }
 }
@@ -63,10 +63,10 @@
   display: block;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1, 15;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-nav-color);
+  color: $title-nav-color;
   margin-bottom: 30px;
   transition: color $transition;
 }
@@ -75,7 +75,7 @@
   position: relative;
   margin-bottom: 28px;
 
-  & svg {
+  svg {
     width: 18px;
     height: 18px;
     fill: var(--title-nav-color);
@@ -83,7 +83,7 @@
     transition: fill $transition;
   }
 
-  & label {
+  label {
     @include display($justify: flex-start);
     position: absolute;
     top: 50%;

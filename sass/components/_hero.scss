@@ -33,7 +33,7 @@
     color: $primary-white-color;
   }
 
-  & h1 {
+  h1 {
     margin: 0;
     @include generalfont(900, 44px);
     line-height: 1.36;

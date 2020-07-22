@@ -14,7 +14,7 @@
   display: flex;
   margin-left: 85px;
 
-  & .item:not(:last-child) {
+  .item:not(:last-child) {
     margin-right: 50px;
   }
 }
@@ -67,7 +67,7 @@
   @include display($justify: flex-start);
   margin-left: auto;
 
-  & .item + .item {
+  .item + .item {
     margin-left: 30px;
   }
 }
