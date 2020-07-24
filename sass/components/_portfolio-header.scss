@@ -71,7 +71,7 @@ header {
   @include display($justify: flex-start);
   margin-left: auto;
 
-  & .item + .item {
+  .item + .item {
     margin-left: 30px;
   }
 }

@@ -184,7 +184,7 @@
 .checkbox-label {
   @include display($justify: space-evenly);
   @include generalfont;
-  line-height: 1, 7;
+  line-height: 1.7;
   color: $primary-text-color;
 
   &::before {
@@ -221,7 +221,7 @@
 .checkbox-submitt-button {
   border: none;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   width: 200px;
   padding: 10px 55px;
   @include generalfont(700, 16px);

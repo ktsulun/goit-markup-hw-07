@@ -15,7 +15,7 @@
   color: $title-nav-color;
   background-color: $background-color;
   border-radius: 4px;
-  border-style: var(--primary-white-color);
+  border-style: none;
   transition: color 250ms $transition, background-color 250ms $transition;
 
   &:hover,

@@ -3,9 +3,7 @@
   flex-wrap: wrap;
   margin-top: 50px;
 
-  & h2 {
-    padding-left: 24px;
-    padding-right: 24px;
+  h2 {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -16,7 +14,7 @@
   position: relative;
   overflow: hidden;
 
-  & img {
+  img {
     max-width: 100%;
   }
 }
@@ -30,17 +28,17 @@
   border-color: $border-color;
 
   &:nth-child(3n) {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   &:nth-last-child(-n + 3) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   & > a:hover,
   & > a:focus {
-    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      0px 1px 1px rgba(0, 0, 0, 0.12);
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.06),
+      0 1px 1px rgba(0, 0, 0, 0.12);
   }
 }
 
@@ -53,8 +51,6 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: $primary-text-color;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .project-description {

@@ -1,7 +1,7 @@
 .scope-of-business {
   margin-top: 94px;
 
-  & h2 {
+  h2 {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
@@ -12,16 +12,16 @@
 .activities {
   display: flex;
 
-  & .item {
+  .item {
     position: relative;
-    width: calc((100%-60px) / 3);
+    width: calc((100% - 60px) / 3);
   }
 
-  & .item:not(:last-child) {
+  .item:not(:last-child) {
     margin-right: 30px;
   }
 
-  & img {
+  img {
     display: block;
   }
 }
